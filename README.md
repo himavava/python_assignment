@@ -4,6 +4,38 @@ topic : Predict whether a student will pass or fail using SVM
 
 The dataset used is "student.csv".
 the python file "prediction" contain code for prediction.
+Description of dataset:
+
+            age :  student's age (numeric: from 15 to 22)
+            
+            Medu : mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 :5th to 9th grade, 
+                   3 : secondary education or 4 :higher education)
+                   
+            Fedu : father's education (numeric: 0 - none, 1 - primary education (4th grade), 
+                   2 : 5th to 9th grade, 3 â€“ secondary education or 4 : higher education) 
+
+            traveltime : home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 
+                         3 - 30 min. to 1 hour, or 4 - >1 hour) 
+
+            studytime : weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours) 
+
+            failures  : number of past class failures (numeric: n if 1<=n<3, else 4) 
+
+            famrel : quality of family relationships (numeric: from 1 - very bad to 5 - excellent) 
+
+            freetime : free time after school (numeric: from 1 - very low to 5 - very high) 
+
+            goout : going out with friends (numeric: from 1 - very low to 5 - very high) 
+
+            Dalc :  workday alcohol consumption (numeric: from 1 - very low to 5 - very high) 
+
+            Walc : weekend alcohol consumption (numeric: from 1 - very low to 5 - very high) 
+
+            health : current health status (numeric: from 1 - very bad to 5 - very good) 
+
+            absences : number of school absences (numeric: from 0 to 93) 
+
+           passed : pass or fail (1 for pass and 0 for fail )
 
 Description of code:
 
